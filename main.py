@@ -6,7 +6,7 @@ from langchain.schema import HumanMessage
 
 # --- OpenRouter LLM setup ---
 llm = ChatOpenAI(
-    openai_api_key="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",  # 🔁 REPLACE with your actual API key
+    openai_api_key="sk-or-v1-...",  # 🔁 REPLACE with your actual API key
     openai_api_base="https://openrouter.ai/api/v1",
     model_name="mistralai/mistral-7b-instruct",
     temperature=0.7
